@@ -1,5 +1,8 @@
 # mbti16_plus
 
+<img width="1080" height="1350" alt="image" src="https://github.com/user-attachments/assets/eb801896-9ff2-42ed-ab95-ab7ef811257d" />
+
+
 MBTI 64형(XXXX + A/O + H/C) 간이 테스트
 
 개요
