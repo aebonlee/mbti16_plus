@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MBTI 64형(XXXX + A/O + H/C) 간이 테스트</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="header">
+      <h1>MBTI 64형(XXXX + A/O + H/C) 간이 테스트</h1>
+      <p class="sub">
+        주의: 공식 MBTI 진단이 아니며, 온라인에서 유행하는 AOHC 확장(64형)을 참고한 자가진단용 테스트입니다.
+      </p>
+    </header>
+
+    <section id="card" class="card">
+      <div id="progress" class="progress"></div>
+      <div id="questionArea"></div>
+
+      <div class="nav">
+        <button id="prevBtn" class="btn ghost" type="button">이전</button>
+        <button id="nextBtn" class="btn" type="button">다음</button>
+      </div>
+    </section>
+
+    <section id="result" class="card hidden"></section>
+
+    <footer class="footer">
+      <p>
+        로컬 실행: python -m http.server 8000 후 http://localhost:8000
+        <br/>
+        GitHub Pages 배포: Settings → Pages → Deploy from branch (main / root)
+      </p>
+    </footer>
+  </main>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
